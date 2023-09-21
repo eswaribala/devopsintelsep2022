@@ -131,6 +131,13 @@ git config --list --show-origin --show-scope
 
 git mergetool
 
+select using
+You can either incorporate the changes by manually editing the MERGED split, or use Vim shortcuts pull from one of the LOCAL, BASE ad REMOTE versions.
+
+:diffg RE  # get from REMOTE
+:diffg BA  # get from BASE
+:diffg LO  # get from LOCAL
+
 select the required code
 
 git commit -m "conclusion message"
